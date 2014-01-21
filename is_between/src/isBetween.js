@@ -1,3 +1,4 @@
-function is_between(num, min, max) {
+
+function is_between(min, num, max) {
   return (num > min && num < max)
 }
