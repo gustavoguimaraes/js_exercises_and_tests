@@ -2,20 +2,42 @@
 //it should have 3 functions, ageInYears, ageInDays, ageInDogYears
 
 function Dog() {
-  this.age = Math.floor((Math.random() * 15) + 1);
+  this.age = 3;
 }
+
+// var year = function() {
+
+// };
+
 
 Dog.prototype.ageInYears = function() {
   return this.age;
-}
+};
 
 Dog.prototype.ageInDays = function() {
-  this.age * 365
+  return this.age * 365;
 };
 
 Dog.prototype.ageInDogYears = function() {
   return this.age * 7;
 }
+
+
+// function Dog() {
+//   this.age = Math.floor((Math.random() * 15) + 1);
+// }
+
+// Dog.prototype.ageInYears = function() {
+//   return this.age;
+// }
+
+// Dog.prototype.ageInDays = function() {
+//   this.age * 365
+// };
+
+// Dog.prototype.ageInDogYears = function() {
+//   return this.age * 7;
+// }
 
 
 
